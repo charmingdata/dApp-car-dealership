@@ -10,6 +10,9 @@
     "export": "next export"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.0",
+    "antd": "^4.22.3",
+    "copy-clipboard-js": "^1.0.3",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "ethers": "^5.7.2",
