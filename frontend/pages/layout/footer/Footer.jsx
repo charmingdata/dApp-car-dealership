@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { notification } from 'antd';
 import { Footer as AntdFooter } from 'antd/lib/layout/layout';
 import CopyOutlined from '@ant-design/icons/CopyOutlined';
@@ -37,15 +37,15 @@ const Footer = () => {
         bottom: "0px",
         marginTop: "auto"
       }}>
-        <div style={{    
-        textAlign: "center"
-      }}>
+        <div style={{
+          textAlign: "center"
+        }}>
           <div>
             Trace: {lastCommitHash}
             <CopyOutlined onClick={() => copyLink()} />
           </div>
           <div>
-            &copy; {new Date().getFullYear()} - Maifee Ul Asad
+            &copy; {new Date().getFullYear()} - <a href='https://github.com/charmingdata/dApp-car-dealership/graphs/contributors'>Developers - dApp-car-dealership</a>
           </div>
         </div>
       </AntdFooter>
